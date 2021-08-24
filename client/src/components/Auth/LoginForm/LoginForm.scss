@@ -1,0 +1,21 @@
+@import "../../../scss/index.scss";
+
+.login-form{
+    input {
+        padding: 15px !important;
+        background-color: #f9f9f9;
+    }
+    h2 {
+        font-size: 17px !important;
+        text-align: center !important;
+        margin-bottom: 20px;
+
+    }
+    .submit-error {
+        color: $danger;
+        font-style:italic;
+        text-align: center;
+        margin: 20px 0 0 ;
+    }
+
+}
