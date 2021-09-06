@@ -10,7 +10,7 @@ import userAuth from '../../../hooks/userAuth'
 
 
 
-//test
+
 export default function LoginForm() {
     const [login] = useMutation(LOGIN)
     const [error, setError] = useState("")

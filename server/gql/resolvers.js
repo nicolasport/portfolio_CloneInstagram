@@ -1,4 +1,5 @@
 const userController = require("../controllers/user")
+
 const resolvers = {
     Query: {
         //User
@@ -7,7 +8,8 @@ const resolvers = {
     Mutation: {
         //User
         register : (_, { input }) => userController.register(input),
-        login: (_, { input }) => userController.login(input)
+        login: (_, { input }) => userController.login(input),
+        updateAvatar: (_, { file }) => userController.updateAvatar(file)
 
     } 
 }
