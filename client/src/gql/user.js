@@ -23,14 +23,24 @@ export const LOGIN = gql`
 export const GET_USER = gql`
     query getUser($id: ID, $username: String) {
         getUser(id: $id, username: $username) {
-        id
-        name
-        username
-        email
-        siteWeb
-        description
-        password
-        avatar
+            id
+            name
+            username
+            email
+            siteWeb
+            description
+            password
+            avatar
     }
 }
 `;
+
+export const UPDATE_AVATAR = gql`
+    mutation updateAvatar($file: Upload!){
+        updateAvatar(file: $file) {
+            status
+            urlAvatar
+        }
+    }
+`;
+

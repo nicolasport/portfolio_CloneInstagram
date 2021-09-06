@@ -13,4 +13,4 @@ yup (validaciones form)
 react-toastify (notificaciones)
 jwt-decode (desencriptar token)
 lodash(libreria maps, etc)
-react-dropzone 
+react-dropzone (file upload)
