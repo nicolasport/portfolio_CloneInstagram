@@ -1,0 +1,16 @@
+install
+
+Server
+graphql
+apolloserver
+bcryptjs
+mongoose
+
+React
+apollo client
+formik (bind formularios)
+yup (validaciones form)
+react-toastify (notificaciones)
+jwt-decode (desencriptar token)
+lodash(libreria maps, etc)
+react-dropzone 
