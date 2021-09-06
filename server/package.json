@@ -4,7 +4,7 @@
   "description": "server de app instaclone",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./index.js"
+    "start": "nodemon ./index.js"
   },
   "author": "",
   "license": "ISC",
